@@ -10,7 +10,7 @@ func main() {
 
 	// Rota simples
 	app.Get("/", func(c *fiber.Ctx) error {
-		return c.SendString("🚀 Go Fiber no Railway!")
+		return c.SendString("🚀 Go Fiber no Railway! Edit Test")
 	})
 
 	// Define a porta (Railway define automaticamente a porta como variável de ambiente)
